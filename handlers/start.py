@@ -3,7 +3,9 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from database import (
     get_user, create_user, add_balance,
-    can_take_bonus, set_bonus_date, DAILY_BONUS
+    can_take_bonus, set_bonus_date
+)
+from config import DAILY_BONUS, LEVELS
 )
 from config import LEVELS
 from keyboards import main_menu
