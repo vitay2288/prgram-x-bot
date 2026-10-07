@@ -1,6 +1,6 @@
 import sqlite3
 from datetime import datetime, date, timedelta
-from config import LEVELS
+from config import LEVELS, DAILY_BONUS
 
 DB = "/data/prgram_x.db"
 
