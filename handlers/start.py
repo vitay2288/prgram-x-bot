@@ -6,8 +6,6 @@ from database import (
     can_take_bonus, set_bonus_date
 )
 from config import DAILY_BONUS, LEVELS
-)
-from config import LEVELS
 from keyboards import main_menu
 from texts import WELCOME, RULES, INSTRUCTION
 
